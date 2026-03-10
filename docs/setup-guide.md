@@ -1,6 +1,6 @@
-# Setup Guide for MikroTik Hotspot Voucher Lab
+# Setup Guide for MikroTik Hotspot Voucher
 
-This guide explains how to set up a MikroTik CHR hotspot lab with Windows 7 client in VirtualBox. The setup allows creating and testing WiFi voucher authentication in a simple internal network.
+This guide explains how to set up a MikroTik CHR hotspot with Windows 7 clients in VirtualBox. These settings are for creating and testing WiFi voucher authentication in a simple internal network.
 
 ---
 
@@ -8,10 +8,10 @@ This guide explains how to set up a MikroTik CHR hotspot lab with Windows 7 clie
 
 ### MikroTik CHR VM
 1. Create a new VirtualBox VM and attach the `chr-7.20.8.vdi` disk.
-   Download the disk image:
-   https://download.mikrotik.com/routeros/7.20.8/chr-7.20.8.vdi.zip
+
+   Download the disk image: [chr-7.20.8.vdi.zip](https://download.mikrotik.com/routeros/7.20.8/chr-7.20.8.vdi.zip)
 2. Add 4 network adapters:
-   - **Adapter 1 (NAT)**: Provides internet to MikroTik (DHCP client, IP 10.0.2.15)
+   - **Adapter 1 (NAT)**: Provides internet to MikroTik (DHCP client)
    - **Adapter 2 (Host-Only)**: For stable Winbox management (Host IP: 192.168.56.1/24)
    - **Adapter 3 (Bridge)**: Optional, allows access to the physical network
    - **Adapter 4 (Internal Network)**: For hotspot clients (IP 192.168.10.1/24)
@@ -112,7 +112,3 @@ Password: 123
 ```
 
 Clients can now login using these voucher accounts.
-
----
-
-This setup creates a simple but functional hotspot lab with voucher authentication, suitable for testing, learning, or small lab simulations.
