@@ -8,8 +8,6 @@ This guide explains how to set up a MikroTik CHR hotspot with Windows 7 clients 
 
 ### MikroTik CHR VM
 1. Create a new VirtualBox VM and attach the `chr-7.20.8.vdi` disk.
-
-   Download the disk image: [chr-7.20.8.vdi.zip](https://download.mikrotik.com/routeros/7.20.8/chr-7.20.8.vdi.zip)
 2. Add 4 network adapters:
    - **Adapter 1 (NAT)**: Provides internet to MikroTik (DHCP client)
    - **Adapter 2 (Host-Only)**: For stable Winbox management (Host IP: 192.168.56.1/24)
