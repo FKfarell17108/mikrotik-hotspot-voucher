@@ -16,8 +16,7 @@ This guide explains how to set up a MikroTik CHR hotspot with Windows 7 clients 
 
 ### Windows 7 VM
 1. Create another VM with Windows 7.
-2. Attach 4 network adapters with the same setup as MikroTik.
-3. Use **Adapter 4 (Internal Network)** to connect to the hotspot network.
+2. Attach **Internal Network** adapter to connect to the hotspot network.
 
 ---
 
