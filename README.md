@@ -28,9 +28,10 @@ The purpose is to:
 
 1. Clone this repository to your local machine.  
 2. Follow the setup guide in `docs/setup-guide.md` to configure the VM and MikroTik hotspot.  
-3. Use the `configs/` folder to restore the previously defined MikroTik configuration and voucher users.  
-4. Customize the login page in `hotspot/html/` if desired.  
-5. Test the hotspot by connecting a Windows 7 client via an internal network adapter.
+3. All required tools are listed in `docs/requirements.md` 
+4. Use the `configs/` folder to restore the previously defined MikroTik configuration and voucher users.  
+5. Customize the login page in `hotspot/html/` if desired.  
+6. Test the hotspot by connecting a Windows 7 client via an internal network adapter.
 
 ---
 
