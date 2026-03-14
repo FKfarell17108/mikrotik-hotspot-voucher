@@ -22,7 +22,7 @@ The purpose is to:
 
 2. **Flowchart Mikrotik Hostpot**
 
-
+<img src="diagrams/flowchart-mikrotik-hostpot.png" width="52%">
 
 ---
 
