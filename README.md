@@ -18,11 +18,11 @@ The purpose is to:
 
 1. **Topology Mikrotik Hostpot** 
 
-![Topology Mikrotik](diagrams/topology-mikrotik-hostpot.png)
+<img src="diagrams/topology-mikrotik-hostpot.png" width="52%">
 
 2. **Flowchart Mikrotik Hostpot**
 
-![Flowchart Hostpot](diagrams/flowchart-mikrotik-hostpot.png)
+<img src="diagrams/flowchart-mikrotik-hostpot.png" width="52%">
 
 ---
 
