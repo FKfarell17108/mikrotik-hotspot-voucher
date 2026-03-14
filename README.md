@@ -16,13 +16,13 @@ The purpose is to:
 
 ## Topology & Flowchart
 
-1. **Network Topology** - illustrates how NAT, Host-Only, Bridge, and Internal adapters are connected between hosts, MikroTik, and Windows clients.  
+1. **Topology Mikrotik Hostpot** 
 
-![Network Topology](diagrams/topologi-network.jpg)
+![Topology Mikrotik](diagrams/topology-mikrotik-hostpot.png)
 
-2. **Hotspot Login Flowchart** - displays the authentication flow for logging in using a voucher, from client access to internet access approval.  
+2. **Flowchart Mikrotik Hostpot**
 
-![Hotspot Login Flow](diagrams/hotspot-flowchart.jpg)
+![Flowchart Hostpot](diagrams/flowchart-mikrotik-hostpot.png)
 
 ---
 
