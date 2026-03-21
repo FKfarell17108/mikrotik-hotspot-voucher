@@ -16,13 +16,13 @@ The purpose is to:
 
 ## Topology & Flowchart
 
-1. **Topology Mikrotik Hostpot** 
+<p align="center">
+  <img src="diagrams/topology-mikrotik-hostpot.png" style="max-width: 700px; width: 100%; height: auto;" />
+</p>
 
-<img src="diagrams/topology-mikrotik-hostpot.png" width="52%">
-
-2. **Flowchart Mikrotik Hostpot**
-
-<img src="diagrams/flowchart-mikrotik-hostpot.png" width="52%">
+<p align="center">
+  <img src="diagrams/flowchart-mikrotik-hostpot.png" style="max-width: 700px; width: 100%; height: auto;" />
+</p>
 
 ---
 
