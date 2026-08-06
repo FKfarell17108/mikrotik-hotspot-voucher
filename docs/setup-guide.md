@@ -1,8 +1,4 @@
-# Setup Guide for MikroTik Hotspot Voucher
-
-This guide explains how to set up a MikroTik CHR hotspot with Windows 7 clients in VirtualBox. These settings are for creating and testing WiFi voucher authentication in a simple internal network.
-
----
+# Setup Guide
 
 ## 1. VirtualBox VM Setup
 
@@ -18,8 +14,6 @@ This guide explains how to set up a MikroTik CHR hotspot with Windows 7 clients 
 1. Create another VM with Windows 7.
 2. Attach **Internal Network** adapter to connect to the hotspot network.
 
----
-
 ## 2. MikroTik Interface Configuration
 
 1. Open **Winbox** and connect to MikroTik via Host-Only adapter (192.168.56.1).
@@ -30,8 +24,6 @@ ether2 → Host-Only (Winbox)
 ether3 → Bridge
 ether4 → Internal Network (Hotspot)
 ```
-
----
 
 ## 3. Internal Network & DHCP
 
@@ -50,8 +42,6 @@ Gateway: 192.168.10.1
 DNS: 8.8.8.8
 ```
 
----
-
 ## 4. NAT Configuration
 
 1. Enable NAT so clients can access the internet:
@@ -61,8 +51,6 @@ Chain: srcnat
 Out Interface: ether1
 Action: masquerade
 ```
-
----
 
 ## 5. Hotspot Setup
 
@@ -74,8 +62,6 @@ Action: masquerade
 - DNS Servers: 8.8.8.8
 - Hotspot Name: `hotspot`
 - Create initial user (e.g., `admin` / `password`)
-
----
 
 ## 6. Custom Login Page (Optional)
 
@@ -89,15 +75,11 @@ hotspot/html/login.js
 2. Upload the `html` folder to MikroTik via **Files → hotspot**.
 3. Set **HTML Directory** in Hotspot Server Profile to use this folder.
 
----
-
 ## 7. Testing
 
 1. On Windows 7, open any browser and access a website (e.g., `http://google.com`).
 2. You should be redirected to the hotspot login page.
 3. Enter your hotspot credentials to access the internet.
-
----
 
 ## 8. Creating Voucher Users
 
