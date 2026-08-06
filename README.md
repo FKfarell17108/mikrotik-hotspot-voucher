@@ -2,12 +2,13 @@
 
 A MikroTik hotspot project using a VirtualBox virtual machine (VM). It includes a MikroTik CHR VM as a hotspot/router and a Windows 7 VM as a client. The setup uses multiple network adapters (NAT, Host-Only, Bridge, Internal).
 
-Topology & Flowchart
+Topology
 
-<div style="display: flex; gap: 20px;">
-  <img src="diagrams/topology-mikrotik-hostpot.png" alt="Topology" width="450">
-  <img src="diagrams/flowchart-mikrotik-hostpot.png" alt="Flowchart" width="450">
-</div>
+<img src="diagrams/topology-mikrotik-hostpot.png" alt="Topology" width="600">
+
+Flowchart
+
+<img src="diagrams/flowchart-mikrotik-hostpot.png" alt="Flowchart" width="600">
 
 ---
 
